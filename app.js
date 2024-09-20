@@ -214,7 +214,7 @@ const cat ={
 function yell(msg){
     try{
     console.log(msg.toUpperCase().repeat(3));
-}catch{
+}catch(e){
     console.log("please pass a not valid!!!");
     
 }
