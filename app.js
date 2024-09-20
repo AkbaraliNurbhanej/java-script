@@ -190,4 +190,13 @@
 //     }
 // }
 
+//this is a this methods!!!!!!
 
+const cat ={
+    name: 'blue steele',
+    color:'grey',
+    breed:'scottish fold',
+    meow(){
+        console.log("meow meow meow");
+    }
+}
