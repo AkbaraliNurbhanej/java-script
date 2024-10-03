@@ -279,4 +279,3 @@ const movies = [
         return movie.title.toUpperCase() ;   
     })
     
-    arrow
