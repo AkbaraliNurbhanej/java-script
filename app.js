@@ -231,21 +231,33 @@
 //     }
 // })
 
-const movies = [
-    {
-        title:'amadeus',
-        score:99
-    },
-    {
-        title:'stand by me ',
-        score:98,
-    },
-    {
-        title:'parasite',
-        score:95
-    }
-]
+// const movies = [
+//     {
+//         title:'amadeus',
+//         score:99
+//     },
+//     {
+//         title:'stand by me ',
+//         score:98,
+//     },
+//     {
+//         title:'parasite',
+//         score:95
+//     }
+// ]
 
-movies.forEach(function(movie){
-    console.log(`${movie.title} ${movie.score}/100`);
+// movies.forEach(function(movie){
+//     console.log(`${movie.title} ${movie.score}/100`);
+// })
+
+
+//map method!!!!!!!!
+
+
+const number = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+
+const numbers =number.map(function(number){
+    return(number*2)
 })
+
+console.log(numbers);
