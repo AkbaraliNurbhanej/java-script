@@ -260,22 +260,37 @@
 //     return num*2;
 // })
 
-const movies = [
-        {
-            title:'amadeus',
-            score:99
-        },
-        {
-            title:'stand by me ',
-            score:98,
-        },
-        {
-            title:'parasite',
-            score:95
-        }
-    ]
+// const movies = [
+//         {
+//             title:'amadeus',
+//             score:99
+//         },
+//         {
+//             title:'stand by me ',
+//             score:98,
+//         },
+//         {
+//             title:'parasite',
+//             score:95
+//         }
+//     ]
     
-    const titles= movies.map(function(movie){
-        return movie.title.toUpperCase() ;   
-    })
+//     const titles= movies.map(function(movie){
+//         return movie.title.toUpperCase() ;   
+//     })
     
+
+
+
+// arrow function!!!!!!!!!!!!!!
+
+// const rollDie = ()=>{
+//     return Math.floor(Math.random()*6) + 1
+// }
+
+//OR////////
+
+const rollDie = ()=>(
+    Math.floor(Math.random() * 6)+1
+)
+
