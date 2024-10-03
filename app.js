@@ -254,10 +254,28 @@
 //map method!!!!!!!!
 
 
-const number = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+// const number = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 
-const numbers =number.map(function(number){
-    return(number*2)
-})
+// const numbers =number.map(function(num){
+//     return num*2;
+// })
 
-console.log(numbers);
+const movies = [
+        {
+            title:'amadeus',
+            score:99
+        },
+        {
+            title:'stand by me ',
+            score:98,
+        },
+        {
+            title:'parasite',
+            score:95
+        }
+    ]
+    
+    const titles= movies.map(function(movie){
+        return movie.title.toUpperCase() ;   
+    })
+    
