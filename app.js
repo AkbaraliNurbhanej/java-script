@@ -247,5 +247,5 @@ const movies = [
 ]
 
 movies.forEach(function(movie){
-    console.log(movie);
+    console.log(`${movie.title} ${movie.score}/100`);
 })
