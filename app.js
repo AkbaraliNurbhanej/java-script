@@ -192,14 +192,14 @@
 
 //this is a this methods!!!!!!
 
-const cat ={
-    name: 'blue steele',
-    color:'grey',
-    breed:'scottish fold',
-    meow(){
-        console.log("meow meow meow");
-    }
-}
+// const cat ={
+//     name: 'blue steele',
+//     color:'grey',
+//     breed:'scottish fold',
+//     meow(){
+//         console.log("meow meow meow");
+//     }
+// }
 
 
 // useing to try and catch
@@ -211,14 +211,14 @@ const cat ={
 // }
 
 
-function yell(msg){
-    try{
-    console.log(msg.toUpperCase().repeat(3));
-}catch(e){
-    console.log("please pass a not valid!!!");
+// function yell(msg){
+//     try{
+//     console.log(msg.toUpperCase().repeat(3));
+// }catch(e){
+//     console.log("please pass a not valid!!!");
     
-}
-}
+// }
+// }
 
 
 // forEach !!!!!
@@ -230,3 +230,22 @@ function yell(msg){
 //     console.log(el)
 //     }
 // })
+
+const movies = [
+    {
+        title:'amadeus',
+        score:99
+    },
+    {
+        title:'stand by me ',
+        score:98,
+    },
+    {
+        title:'parasite',
+        score:95
+    }
+]
+
+movies.forEach(function(movie){
+    console.log(movie);
+})
