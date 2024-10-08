@@ -290,7 +290,35 @@
 
 //OR////////
 
-const rollDie = ()=>(
-    Math.floor(Math.random() * 6)+1
-)
+// const rollDie = ()=>(
+//     Math.floor(Math.random() * 6)+1
+// )
 
+
+const movies = [
+        {
+            title:'amadeus',
+            score:99
+        },
+        {
+            title:'stand by me ',
+            score:98,
+        },
+        {
+            title:'parasite',
+            score:95
+        }
+    ]
+
+    // const newMovies = movies.map(function(movie){
+    //     return `${movie.title} - ${movie.score/10} `    
+    // })
+
+    //arrow function use
+
+    // const newMovies = movies.map((movie)=>{
+    //     `${movie.title} - ${movie.score/10} `
+    // }) 
+    // oneline arrow function!!!!!
+
+    const newMovies = movies.map((movie)=>`${movie.title} - ${movie.score/10} `) 
