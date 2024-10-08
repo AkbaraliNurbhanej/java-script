@@ -295,20 +295,20 @@
 // )
 
 
-const movies = [
-        {
-            title:'amadeus',
-            score:99
-        },
-        {
-            title:'stand by me ',
-            score:98,
-        },
-        {
-            title:'parasite',
-            score:95
-        }
-    ]
+// const movies = [
+//         {
+//             title:'amadeus',
+//             score:99
+//         },
+//         {
+//             title:'stand by me ',
+//             score:98,
+//         },
+//         {
+//             title:'parasite',
+//             score:95
+//         }
+//     ]
 
     // const newMovies = movies.map(function(movie){
     //     return `${movie.title} - ${movie.score/10} `    
@@ -321,4 +321,23 @@ const movies = [
     // }) 
     // oneline arrow function!!!!!
 
-    const newMovies = movies.map((movie)=>`${movie.title} - ${movie.score/10} `) 
+    // const newMovies = movies.map((movie)=>`${movie.title} - ${movie.score/10} `) 
+
+
+        //settimeout use //////////////////////
+
+
+
+    // console.log("HELLO.......");
+    
+    //     setTimeout(() => {
+    //     console.log("are you he yar? .........");
+            
+    //     }, 3000);
+
+    //     console.log("Goodbye....");
+        
+
+    // const id =    setInterval(() => {
+    //         console.log(Math.random()) 
+    //     }, 2000);
