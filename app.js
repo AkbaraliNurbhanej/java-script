@@ -351,47 +351,84 @@
         // })
 
 
-        const movies = [
-                    {
-                        title:'amadeus',
-                        score:99,
-                        year:1986
-                    },
-                    {
-                        title:'stand by me ',
-                        score:98,
-                        year:1995
-                    },
-                    {
-                        title:'parasite',
-                        score:95,
-                        year:1978
-                    },
-                    {
-                        title:'pushpa',
-                        score:60,
-                        year:2023
-                    }
-                ]
+        // const movies = [
+        //             {
+        //                 title:'amadeus',
+        //                 score:99,
+        //                 year:1986
+        //             },
+        //             {
+        //                 title:'stand by me ',
+        //                 score:98,
+        //                 year:1995
+        //             },
+        //             {
+        //                 title:'parasite',
+        //                 score:95,
+        //                 year:1978
+        //             },
+        //             {
+        //                 title:'pushpa',
+        //                 score:60,
+        //                 year:2023
+        //             }
+        //         ]
 
-            const goodMovies = movies.filter(movie =>{
-                    return movie.score > 80 
-                })
+        //     const goodMovies = movies.filter(movie =>{
+        //             return movie.score > 80 
+        //         })
 
-            const bedMovies = movies. filter(movie =>{
-                return movie.score < 70
-            }) 
+        //     const bedMovies = movies. filter(movie =>{
+        //         return movie.score < 70
+        //     }) 
 
-            const recentMovies = movies.filter(movies=>{
-                return movies.year > 2000
-            })
+        //     const recentMovies = movies.filter(movies=>{
+        //         return movies.year > 2000
+        //     })
 
-            const oldMovies = movies.filter(movies=>{
-                return movies.year < 2000
-            })
+        //     const oldMovies = movies.filter(movies=>{
+        //         return movies.year < 2000
+        //     })
 
-            const goodTitles = movies.map(movies=>{
-                return movies.title
-            })
+        //     const goodTitles = movies.map(movies=>{
+        //         return movies.title
+        //     })
 
-            movies.filter(m=>m.score > 80).map(m => m.title);
+        //     movies.filter(m=>m.score > 80).map(m => m.title);
+
+
+        // const exams =[90,78,98,89,87,56,48,69,92,15,39,87,60,90]
+
+        // exams.some(score => score >= 75)
+        // exams.every(score => score >= 75)
+
+
+
+        // const movies = [
+        //                 {
+        //                     title:'amadeus',
+        //                     score:99,
+        //                     year:1986
+        //                 },
+        //                 {
+        //                     title:'stand by me ',
+        //                     score:98,
+        //                     year:1995
+        //                 },
+        //                 {
+        //                     title:'parasite',
+        //                     score:95,
+        //                     year:1978
+        //                 },
+        //                 {
+        //                     title:'pushpa',
+        //                     score:60,
+        //                     year:2023
+        //                 }
+        //             ]
+
+        //             movies.some(movies=>movies.year > 1900)
+        //             movies.every(movies=>movies.year > 1900)
+
+
+        
