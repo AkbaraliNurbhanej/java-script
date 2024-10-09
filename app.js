@@ -341,3 +341,57 @@
     // const id =    setInterval(() => {
     //         console.log(Math.random()) 
     //     }, 2000);
+
+    // FILTER METHOD!!!!!!!!!!!!!!!!
+
+        // const number = [1,2,3,4,5,6,7,8,9,10]
+
+        // number.filter(n =>{
+        //     return n < 10 
+        // })
+
+
+        const movies = [
+                    {
+                        title:'amadeus',
+                        score:99,
+                        year:1986
+                    },
+                    {
+                        title:'stand by me ',
+                        score:98,
+                        year:1995
+                    },
+                    {
+                        title:'parasite',
+                        score:95,
+                        year:1978
+                    },
+                    {
+                        title:'pushpa',
+                        score:60,
+                        year:2023
+                    }
+                ]
+
+            const goodMovies = movies.filter(movie =>{
+                    return movie.score > 80 
+                })
+
+            const bedMovies = movies. filter(movie =>{
+                return movie.score < 70
+            }) 
+
+            const recentMovies = movies.filter(movies=>{
+                return movies.year > 2000
+            })
+
+            const oldMovies = movies.filter(movies=>{
+                return movies.year < 2000
+            })
+
+            const goodTitles = movies.map(movies=>{
+                return movies.title
+            })
+
+            movies.filter(m=>m.score > 80).map(m => m.title);
