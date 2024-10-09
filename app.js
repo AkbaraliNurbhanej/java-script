@@ -431,4 +431,17 @@
         //             movies.every(movies=>movies.year > 1900)
 
 
-        
+        const person = {
+            firstName:'Viggo',
+            lastName:'Mortensen',
+            fullName:()=>{
+            return `    ${this.firstName} ${this.lastName}`
+            },
+
+            shoutName: function (){
+                setTimeout(()=>{
+                    console.log(this);
+                    console.log(this.fullName());
+                }, 3000)
+            }
+        }
